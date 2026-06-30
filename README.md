@@ -6,6 +6,8 @@
 
 Building AgentOps tools for secure AI coding workflows — including token-usage tracking for AI-assisted development.
 
+[![Tokscale Stats](https://tokscale.ai/api/embed/Sungho-pk42ac/svg)](https://tokscale.ai/u/Sungho-pk42ac)
+
 </div>
 
 ---
