@@ -4,7 +4,7 @@
 
 **AI Security & AgentOps Builder**
 
-Building AgentOps tools for secure, observable AI coding workflows.
+Building AgentOps tools for secure AI coding workflows — including token-usage tracking for AI-assisted development.
 
 </div>
 
