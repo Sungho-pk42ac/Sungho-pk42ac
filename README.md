@@ -2,9 +2,9 @@
 
 # pk42ac
 
-**AI security tools · practical ML systems · agent-safe software**
+**AI Security & AgentOps Builder**
 
-I build small, sharp systems around AI agents, document security, and full-stack ML products.
+Building AgentOps tools for secure, observable AI coding workflows.
 
 </div>
 
