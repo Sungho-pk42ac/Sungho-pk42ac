@@ -2,6 +2,13 @@
 
 # pk42ac
 
+<a href="https://git.io/typing-svg">
+  <img
+    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=333333&center=true&vCenter=true&width=720&lines=AI+Security+%26+AgentOps;Secure+AI+coding+workflows;Token-usage+tracking+for+AI-assisted+development;MCP+%C2%B7+PR+diff+%C2%B7+Agent+transcript+security;Practical+ML+systems"
+    alt="Typing SVG"
+  />
+</a>
+
 **AI Security & AgentOps Builder**
 
 Building AgentOps tools for secure AI coding workflows — including token-usage tracking for AI-assisted development.
