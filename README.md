@@ -1,17 +1,17 @@
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light.svg" />
+  <img src="./assets/profile-hero-dark.svg" alt="박성호 / pk42ac — AI Security & AgentOps Builder" width="100%" />
+</picture>
+
 <div align="center">
 
-# pk42ac
+# pk42ac · 박성호
 
-<a href="https://git.io/typing-svg">
-  <img
-    src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=24&duration=2800&pause=900&color=333333&center=true&vCenter=true&width=720&lines=AI+Security+%26+AgentOps;Secure+AI+coding+workflows;Token-usage+tracking+for+AI-assisted+development;MCP+%C2%B7+PR+diff+%C2%B7+Agent+transcript+security;Practical+ML+systems"
-    alt="Typing SVG"
-  />
-</a>
+**AI허브팀 박성호 연구원 · AI Security & AgentOps Builder**
 
-**AI Security & AgentOps Builder**
-
-Building AgentOps tools for secure AI coding workflows — including token-usage tracking for AI-assisted development.
+AI coding agents, MCP, PR diffs, transcripts, and LLM workflows are becoming a new security surface.<br>
+I build practical tools that make those workflows **observable, governable, and hard to misuse**.
 
 [![Tokscale Stats](https://tokscale.ai/api/embed/Sungho-pk42ac/svg)](https://tokscale.ai/u/Sungho-pk42ac)
 
@@ -25,8 +25,8 @@ Building AgentOps tools for secure AI coding workflows — including token-usage
   <tr>
     <td width="50%">
       <h3><a href="https://github.com/Sungho-pk42ac/agentguard">AgentGuard</a></h3>
-      <p>Security scanner for AI coding agents, MCP configs, transcripts, and PR diffs.</p>
-      <sub>TypeScript CLI · SARIF · GitHub Actions · 167 tests</sub>
+      <p><b>AgentOps security scanner</b> for AI coding agents, MCP configs, transcripts, and PR diffs.</p>
+      <sub>TypeScript CLI · SARIF · GitHub Actions · control-plane direction</sub>
     </td>
     <td width="50%">
       <h3><a href="https://github.com/Sungho-pk42ac/Document-classification-CSO">Document-classification-CSO</a></h3>
@@ -37,7 +37,7 @@ Building AgentOps tools for secure AI coding workflows — including token-usage
   <tr>
     <td width="50%">
       <h3><a href="https://github.com/Sungho-pk42ac/kisia-project">AI DLP</a></h3>
-      <p>Detects and blocks sensitive data leakage in generative AI workflows.</p>
+      <p>Detects and blocks sensitive data leakage in generative-AI workflows.</p>
       <sub>PII detection · policy engine · dashboard · 2025 award work</sub>
     </td>
     <td width="50%">
@@ -54,8 +54,8 @@ Building AgentOps tools for secure AI coding workflows — including token-usage
 AI agents should be useful, observable, and hard to misuse.
 ```
 
-- Make agent workflows safer before they touch production systems.
-- Turn security/ML ideas into working tools, not just notebooks.
+- Secure AI-agent workflows before they touch production systems.
+- Turn AI security ideas into working CLIs, dashboards, and reproducible pipelines.
 - Keep projects small enough to understand and complete enough to run.
 
 ## Stack
