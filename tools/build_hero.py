@@ -2,10 +2,9 @@
 # from ascii_portrait.txt. The source photo is NOT in this repo by design;
 # regenerate the ASCII with ascii_gen.py <photo> if the portrait must change.
 # Emits assets/profile-hero-dark-v2.svg and profile-hero-light-v2.svg from one template.
-# Pure SVG + SMIL. No <script>, no external URLs, no <image>, no foreignObject.
+# Pure SVG + SMIL. No scripts, no external URLs, no raster embeds, no foreignObject.
 import html, os
 
-import os
 _D = os.path.dirname(os.path.abspath(__file__))
 ASCII = [l.rstrip("\n") for l in open(os.path.join(_D, "ascii_portrait.txt"), encoding="ascii")]
 CW_A = 5.3          # ascii char advance
