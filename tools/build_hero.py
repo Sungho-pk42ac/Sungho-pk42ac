@@ -5,6 +5,7 @@
 # Pure SVG + SMIL. No scripts, no external URLs, no raster embeds, no foreignObject.
 import html, os
 
+import os
 _D = os.path.dirname(os.path.abspath(__file__))
 ASCII = [l.rstrip("\n") for l in open(os.path.join(_D, "ascii_portrait.txt"), encoding="ascii")]
 CW_A = 5.3          # ascii char advance
@@ -28,19 +29,19 @@ SKILLS = ["TypeScript", "Python", "Node.js", "Next.js/React", "FastAPI",
 
 THEMES = {
     "dark": dict(
-        bg="#000000", panel="#04100C", panelOp="0.78", border="rgba(0,255,156,0.10)",
-        borderHex="#00FF9C", borderOp="0.14", text="#E6FFF4", muted="#3F6E5C",
-        g0="#00FF9C", g1="#00E5FF", g2="#39D353",
-        blobA="#003B2E", blobB="#00343F", blobC="#052E16", blobOp="0.38",
-        pill="#03140D", pillTx="#7CFFCB", titlebar="#010A06", glow="#00FF9C",
-        sheen="#00FF9C", sheenOp="0.04", noiseOp="0.07", scan="#00FF9C"),
+        bg="#000000", panel="#020906", panelOp="0.88", border="rgba(0,209,132,0.08)",
+        borderHex="#00D184", borderOp="0.10", text="#BFE8D6", muted="#2E5244",
+        g0="#00C97A", g1="#00AFC7", g2="#2EA043",
+        blobA="#02291F", blobB="#02242C", blobC="#03200F", blobOp="0.22",
+        pill="#020D08", pillTx="#4ED9A4", titlebar="#010604", glow="#00D184",
+        sheen="#00D184", sheenOp="0.02", noiseOp="0.05", scan="#00D184"),
     "light": dict(
-        bg="#010409", panel="#04100C", panelOp="0.80", border="rgba(0,229,255,0.10)",
-        borderHex="#00E5FF", borderOp="0.14", text="#E6FFF4", muted="#3F6E5C",
-        g0="#00E5FF", g1="#00FF9C", g2="#39D353",
-        blobA="#00343F", blobB="#003B2E", blobC="#052E16", blobOp="0.38",
-        pill="#03140D", pillTx="#7CFFCB", titlebar="#010A06", glow="#00E5FF",
-        sheen="#00E5FF", sheenOp="0.04", noiseOp="0.07", scan="#00E5FF"),
+        bg="#010204", panel="#020906", panelOp="0.88", border="rgba(0,175,199,0.08)",
+        borderHex="#00AFC7", borderOp="0.10", text="#BFE8D6", muted="#2E5244",
+        g0="#00AFC7", g1="#00C97A", g2="#2EA043",
+        blobA="#02242C", blobB="#02291F", blobC="#03200F", blobOp="0.22",
+        pill="#020D08", pillTx="#4ED9A4", titlebar="#010604", glow="#00AFC7",
+        sheen="#00AFC7", sheenOp="0.02", noiseOp="0.05", scan="#00AFC7"),
 }
 
 
