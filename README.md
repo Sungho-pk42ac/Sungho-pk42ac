@@ -1,14 +1,14 @@
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light.svg" />
-  <img src="./assets/profile-hero-dark.svg" alt="박성호 / pk42ac — AI Security & AgentOps Builder" width="100%" />
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/profile-hero-dark-v2.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/profile-hero-light-v2.svg" />
+  <img src="./assets/profile-hero-dark-v2.svg" alt="pk42ac · 박성호 — AI Security & AgentOps Builder" width="100%" />
 </picture>
 
 <div align="center">
 
 # pk42ac · 박성호
 
-**AI허브팀 박성호 연구원 · AI Security & AgentOps Builder**
+**AI Security & AgentOps Builder**
 
 AI coding agents, MCP, PR diffs, transcripts, and LLM workflows are becoming a new security surface.<br>
 I build practical tools that make those workflows **observable, governable, and hard to misuse**.
@@ -37,12 +37,12 @@ I build practical tools that make those workflows **observable, governable, and 
   <tr>
     <td width="50%">
       <h3><a href="https://github.com/Sungho-pk42ac/kisia-project">AI DLP</a></h3>
-      <p>Detects and blocks sensitive data leakage in generative-AI workflows.</p>
-      <sub>PII detection · policy engine · dashboard · 2025 award work</sub>
+      <p>Detects and blocks sensitive-data leakage across generative-AI workflows.</p>
+      <sub>PII detection · policy engine · dashboard</sub>
     </td>
     <td width="50%">
       <h3><a href="https://github.com/Sungho-pk42ac/dacon-2026-skku-multimodal-ai-bias-challenge">DACON SKKU Bias Challenge</a></h3>
-      <p>Multimodal VQA bias-mitigation solution with abstention-aware policy.</p>
+      <p>Multimodal VQA bias-mitigation solution with an abstention-aware policy.</p>
       <sub>Qwen3-VL · GRPO · reproducible submission pipeline</sub>
     </td>
   </tr>
@@ -63,8 +63,12 @@ AI agents should be useful, observable, and hard to misuse.
 <p>
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-111827?style=flat-square&logo=typescript&logoColor=60a5fa" />
   <img alt="Python" src="https://img.shields.io/badge/Python-111827?style=flat-square&logo=python&logoColor=facc15" />
+  <img alt="Node.js" src="https://img.shields.io/badge/Node.js-111827?style=flat-square&logo=nodedotjs&logoColor=5fa04e" />
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js%20%2F%20React-111827?style=flat-square&logo=nextdotjs&logoColor=ffffff" />
   <img alt="FastAPI" src="https://img.shields.io/badge/FastAPI-111827?style=flat-square&logo=fastapi&logoColor=34d399" />
-  <img alt="React" src="https://img.shields.io/badge/React-111827?style=flat-square&logo=react&logoColor=67e8f9" />
+  <img alt="PyTorch" src="https://img.shields.io/badge/PyTorch-111827?style=flat-square&logo=pytorch&logoColor=ee4c2c" />
   <img alt="Hugging Face" src="https://img.shields.io/badge/Hugging%20Face-111827?style=flat-square&logo=huggingface&logoColor=fbbf24" />
+  <img alt="Docker" src="https://img.shields.io/badge/Docker-111827?style=flat-square&logo=docker&logoColor=2496ed" />
+  <img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-111827?style=flat-square&logo=postgresql&logoColor=4169e1" />
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-111827?style=flat-square&logo=githubactions&logoColor=93c5fd" />
 </p>
