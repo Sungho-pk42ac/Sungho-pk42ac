@@ -17,16 +17,3 @@
 ---
 
 ## `~/` whoami
-
-```console
-$ whoami
-pk42ac · 박성호 — AI Security & AgentOps Builder
-
-$ cat mission.txt
-AI coding agents, MCP, PR diffs, transcripts, and LLM workflows
-are becoming a new security surface.
-I build practical tools that make those workflows
-observable, governable, and hard to misuse.
-
-$ _
-```
